@@ -16,7 +16,7 @@ body {
 
 main {
   background-color: #ebfffb;
-  box-shadow: 0 0 1.5rem;
+  box-shadow: 0 0 1.5rem rgba(149, 56, 158, 0.5);
   display: flex;
   margin: 0 auto;
   max-width: 1080px;
@@ -25,7 +25,7 @@ main {
 }
 
 aside {
-  background-color: #22272e;
+  background-color: #4b4e53e3;
   padding: 50px 0 16px;
   width: 280px;
 }
@@ -46,7 +46,7 @@ aside {
 }
 
 .title-name {
-  color: #a2aebb;
+  color: #242423;
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
   margin: 8px 0 0;
@@ -57,11 +57,11 @@ aside {
 }
 
 .subtitle-role {
-  background: #a2aebb;
+  background: #242423;
   border-radius: 12px;
-  color: #242423;
+  color: #e9ebec;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
   padding: 4px 10px;
   text-transform: uppercase;
@@ -76,7 +76,7 @@ aside {
 }
 
 .social-links a {
-  color: #a2aebb;
+  color: #242423;
 }
 
 .social-links a:hover {
@@ -90,7 +90,7 @@ aside {
 }
 
 .personal-data li {
-  color: #a2aebb;
+  color: #242423;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -107,7 +107,7 @@ aside {
 }
 
 .download-button {
-  background: #34af23;
+  background: #242423;
   border-radius: 8px;
   color: white;
   display: block;

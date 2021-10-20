@@ -57,11 +57,11 @@ aside {
 }
 
 .subtitle-role {
-  background: #a2aebb;
+  background: #4b4e53;
   border-radius: 12px;
-  color: #242423;
+  color: #e9ebec;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
   padding: 4px 10px;
   text-transform: uppercase;
@@ -107,7 +107,7 @@ aside {
 }
 
 .download-button {
-  background: #34af23;
+  background: #242423;
   border-radius: 8px;
   color: white;
   display: block;

@@ -16,7 +16,7 @@ body {
 
 main {
   background-color: #ebfffb;
-  box-shadow: 0 0 1.5rem;
+  box-shadow: 0 0 1.5rem rgba(149, 56, 158, 0.5);
   display: flex;
   margin: 0 auto;
   max-width: 1080px;
@@ -25,7 +25,7 @@ main {
 }
 
 aside {
-  background-color: #22272e;
+  background-color: #4b4e53;
   padding: 50px 0 16px;
   width: 280px;
 }
@@ -41,12 +41,12 @@ aside {
 
 .profile-picture {
   border-radius: 50%;
-  border: solid 4px #242423;
+  border: solid 4px #100303;
   width: 180px;
 }
 
 .title-name {
-  color: #a2aebb;
+  color: #100303;
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
   margin: 8px 0 0;
@@ -57,11 +57,11 @@ aside {
 }
 
 .subtitle-role {
-  background: #a2aebb;
+  background: #100303;
   border-radius: 12px;
-  color: #242423;
+  color: #e9ebec;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
   padding: 4px 10px;
   text-transform: uppercase;
@@ -76,11 +76,11 @@ aside {
 }
 
 .social-links a {
-  color: #a2aebb;
+  color: #100303;
 }
 
 .social-links a:hover {
-  color: #e8eddf;
+  color: #95389e;
 }
 
 .personal-data {
@@ -90,7 +90,7 @@ aside {
 }
 
 .personal-data li {
-  color: #a2aebb;
+  color: #100303;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -107,7 +107,7 @@ aside {
 }
 
 .download-button {
-  background: #34af23;
+  background: #100303;
   border-radius: 8px;
   color: white;
   display: block;
@@ -129,7 +129,7 @@ article:not(:last-of-type) {
 .article-title-wrapper {
   align-items: center;
   border-bottom: 4px solid;
-  color: #242423;
+  color: #100303;
   display: inline-flex;
   margin-bottom: 12px;
   padding: 0 2px;
@@ -141,7 +141,7 @@ article:not(:last-of-type) {
 
 .article-title {
   border-top: 4px solid;
-  color: #242423;
+  color: #100303;
   font-size: 32px;
   font-weight: 800;
   margin: 0 0 2px;
@@ -163,7 +163,7 @@ article:not(:last-of-type) {
 .timeline li::after {
   background-color: #fff;
   border-radius: 50%;
-  border: 1px solid #242423;
+  border: 1px solid #100303;
   box-sizing: border-box;
   content: "";
   display: inline-block;
@@ -175,7 +175,7 @@ article:not(:last-of-type) {
 }
 
 .timeline li:not(:last-of-type)::before {
-  background-color: #242423;
+  background-color: #100303;
   content: "";
   height: 100%;
   left: 3.5px;
@@ -185,19 +185,19 @@ article:not(:last-of-type) {
 }
 
 .timeline-title {
-  color: #242423;
+  color: #100303;
   font-size: 20px;
   margin: -8px 0 0;
 }
 
 .timeline-time {
-  color: #242423;
+  color: #100303;
   font-weight: 400;
   margin: 0;
 }
 
 .timeline-place {
-  color: #242423;
+  color: #100303;
   font-size: 18px;
   font-weight: 500;
   margin: 12px 0 4px;
@@ -227,7 +227,7 @@ article:not(:last-of-type) {
 
 .progress-bar {
   align-items: center;
-  background-color: #242423;
+  background-color: #100303;
   border-radius: 20px;
   color: #fff;
   display: flex;
@@ -272,7 +272,7 @@ article:not(:last-of-type) {
 }
 
 .soft-skill-label {
-  color: #242423;
+  color: #100303;
   margin: 4px 0 0;
 }
 

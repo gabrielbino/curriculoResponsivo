@@ -279,12 +279,11 @@ article:not(:last-of-type) {
 
 .portfolio {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: column wrap;
 }
 
-
 .portfolio-item {
-  padding: 6px 0;
+  margin-bottom: 24px;
   margin: auto;
   width: 100%;
   color: #242423;

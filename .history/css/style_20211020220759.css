@@ -41,7 +41,7 @@ aside {
 
 .profile-picture {
   border-radius: 50%;
-  border: solid 4px #181817;
+  border: solid 4px black;
   width: 180px;
 }
 
@@ -230,7 +230,6 @@ article:not(:last-of-type) {
   background-color: #242423;
   border-radius: 20px;
   color: #fff;
-  font-weight: 500;
   display: flex;
   padding: 0 10px;
 }
@@ -280,17 +279,24 @@ article:not(:last-of-type) {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 
 .portfolio-item {
-  padding: 6px 0;
-  margin: auto;
-  width: 100%;
-  color: #242423;
-  font-weight: 800;
+  margin-bottom: 24px;
   text-decoration: none;
+  width: calc(50% - 12px);
 }
+
+/* .portfolio-item div {
+  margin: 0;
+}
+
+.portfolio-item figcaption {
+  color: #3c6e71;
+  font-weight: 800;
+  text-align: center;
+} */
 
 @media (max-width: 1024px) {
   .soft-skills {
@@ -329,7 +335,7 @@ article:not(:last-of-type) {
     width: 100%;
   }
 
-  .portfolio-item {
+  .portfolio-item figure {
     text-align: center;
   }
 }

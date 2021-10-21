@@ -280,16 +280,17 @@ article:not(:last-of-type) {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-
 .portfolio-item {
-  padding: 6px 0;
-  margin: auto;
-  width: 100%;
+  margin-bottom: 24px;
   color: #242423;
   font-weight: 800;
+  border-radius: 20%;
+  background-color: #a2aebb ;
   text-decoration: none;
+  width: calc(50% - 12px);
 }
 
 @media (max-width: 1024px) {

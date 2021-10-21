@@ -227,10 +227,10 @@ article:not(:last-of-type) {
 
 .progress-bar {
   align-items: center;
-  background-color: #242423;
+  background-color: #22272e;
   border-radius: 20px;
-  color: #fff;
-  font-weight: 500;
+  color: #a2aebb;
+  font-weight: 600;
   display: flex;
   padding: 0 10px;
 }
@@ -280,16 +280,14 @@ article:not(:last-of-type) {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-
 .portfolio-item {
-  padding: 6px 0;
-  margin: auto;
-  width: 100%;
-  color: #242423;
+  margin-bottom: 24px;
   font-weight: 800;
   text-decoration: none;
+  width: calc(50% - 12px);
 }
 
 @media (max-width: 1024px) {
@@ -329,7 +327,7 @@ article:not(:last-of-type) {
     width: 100%;
   }
 
-  .portfolio-item {
+  .portfolio-item figure {
     text-align: center;
   }
 }

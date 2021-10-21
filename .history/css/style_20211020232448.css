@@ -284,12 +284,16 @@ article:not(:last-of-type) {
 
 
 .portfolio-item {
-  padding: 6px 0;
+  padding: 6px;
   margin: auto;
   width: 100%;
   color: #242423;
   font-weight: 800;
   text-decoration: none;
+}
+
+.portfolio-item:hover {
+  color: #22272e;
 }
 
 @media (max-width: 1024px) {

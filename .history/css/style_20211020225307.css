@@ -59,7 +59,7 @@ aside {
 .subtitle-role {
   background: #a2aebb;
   border-radius: 12px;
-  color: #242423;
+  color: #22272e;
   font-size: 14px;
   font-weight: 500;
   margin: 0;
@@ -129,7 +129,7 @@ article:not(:last-of-type) {
 .article-title-wrapper {
   align-items: center;
   border-bottom: 4px solid;
-  color: #242423;
+  color: #22272e;
   display: inline-flex;
   margin-bottom: 12px;
   padding: 0 2px;
@@ -141,7 +141,7 @@ article:not(:last-of-type) {
 
 .article-title {
   border-top: 4px solid;
-  color: #242423;
+  color: #22272e;
   font-size: 32px;
   font-weight: 800;
   margin: 0 0 2px;
@@ -163,7 +163,7 @@ article:not(:last-of-type) {
 .timeline li::after {
   background-color: #fff;
   border-radius: 50%;
-  border: 1px solid #242423;
+  border: 1px solid #22272e;
   box-sizing: border-box;
   content: "";
   display: inline-block;
@@ -175,7 +175,7 @@ article:not(:last-of-type) {
 }
 
 .timeline li:not(:last-of-type)::before {
-  background-color: #242423;
+  background-color: #22272e;
   content: "";
   height: 100%;
   left: 3.5px;
@@ -185,19 +185,19 @@ article:not(:last-of-type) {
 }
 
 .timeline-title {
-  color: #242423;
+  color: #22272e;
   font-size: 20px;
   margin: -8px 0 0;
 }
 
 .timeline-time {
-  color: #242423;
+  color: #22272e;
   font-weight: 400;
   margin: 0;
 }
 
 .timeline-place {
-  color: #242423;
+  color: #22272e;
   font-size: 18px;
   font-weight: 500;
   margin: 12px 0 4px;
@@ -227,10 +227,9 @@ article:not(:last-of-type) {
 
 .progress-bar {
   align-items: center;
-  background-color: #242423;
+  background-color: #22272e;
   border-radius: 20px;
   color: #fff;
-  font-weight: 500;
   display: flex;
   padding: 0 10px;
 }
@@ -273,23 +272,21 @@ article:not(:last-of-type) {
 }
 
 .soft-skill-label {
-  color: #242423;
+  color: #22272e;
   margin: 4px 0 0;
 }
 
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-
 .portfolio-item {
-  padding: 6px 0;
-  margin: auto;
-  width: 100%;
-  color: #242423;
+  margin-bottom: 24px;
   font-weight: 800;
   text-decoration: none;
+  width: calc(50% - 12px);
 }
 
 @media (max-width: 1024px) {
@@ -329,7 +326,7 @@ article:not(:last-of-type) {
     width: 100%;
   }
 
-  .portfolio-item {
+  .portfolio-item figure {
     text-align: center;
   }
 }

@@ -16,7 +16,7 @@ body {
 
 main {
   background-color: #ebfffb;
-  box-shadow: 0 0 1.5rem;
+  /* box-shadow: 0 0 1.5rem; */
   display: flex;
   margin: 0 auto;
   max-width: 1080px;
